@@ -1,8 +1,19 @@
 body {
-    font-family: "Lato", sans-serif;
-  }
-  
-  .sidenav {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    top: 5%;
+    border: 5px solid black;
+}
+
+p {
+    background-color: blue;
+    color: black;
+}
+
+
+/* .sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -13,41 +24,100 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  
-  .sidenav a {
+}
+
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
+}
+
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
+}
+
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 5px;
     font-size: 36px;
     margin-left: 40px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-  p{
-    margin-left:1578px;
-  }
-  span{
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+} */
+
+#title_img {
+    margin-top: 21%;
+    margin-left: 1%;
+}
+
+p {
+    margin-left: 1578px;
+}
+
+span {
     font-size: 25px;
     cursor: pointer;
     text-transform: uppercase;
-  }
-  .row{
-      border-color: #111;
-  }
+}
+
+.calcHead {
+    width: 35%;
+    text-indent: 50px;
+    border: 1px solid black;
+    margin-left: auto;
+}
+
+.dropDown {
+    width: 40%;
+}
+
+#myNum {
+    z-index: 200;
+}
+
+#chose {
+    color: aqua;
+    /* font-size: 5px; */
+    font-weight: bolder;
+}
+
+#go_btn {
+    margin-left: 100px;
+}
+
+.btn {
+    width: 13%;
+    border: 0.8px solid gray;
+}
+
+.upper_header {
+    position: relative;
+    color: #000;
+    border: 12px solid skyblue;
+}
+
+.top_caption {
+    padding-top: 5%;
+    /* background-image: url(./images/top.jpg); */
+    /* background-color: blue; */
+    border: 0.5px solid white;
+}
+
+.sample {
+    background-color: bisque;
+}
+
+.calc {
+    border: 2px solid gray;
+}

@@ -1,7 +1,5 @@
-function OpenNav(){
-    document.getElementById("mySidenav").style.width = "200px";
-}
+$(document).ready(funtion() {
+    $("#go_btn").click(function() {
 
-function CloseNav(){
-    document.getElementById("mySidenav").style.width = "0";
-}
+    })
+});
